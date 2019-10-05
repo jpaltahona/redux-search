@@ -4,6 +4,12 @@ import Page from './page';
 import './styles.css';
 
  class Results extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+        };
+    }
     render() {
         const { results } = this.props;
         return (
